@@ -19,7 +19,7 @@ export async function POST(req: Request) {
 
     const mailOptions = {
       from: process.env.SMTP_USER,
-      to: process.env.TO_EMAIL, // your receiving email
+      to: "vaibhavpawar3070d@gmail.com", // your receiving email
       subject: `New Inquiry from ${guardian} (for ${child_name})`,
       html: `
         <h2>Child Information</h2>

@@ -26,7 +26,7 @@ export async function POST(req: Request) {
 
     const mailOptions = {
       from: process.env.SMTP_USER,
-      to: "bocaw46741@gta5hx.com",
+      to: "vaibhavpawar3070d@gmail.com", // your receiving email
       subject: `New Partnership Request from ${Business_full_name}`,
       html: `
         <h2>Partnership Information</h2>
