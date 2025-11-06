@@ -1,5 +1,7 @@
 // tailwind.config.js
 /** @type {import('tailwindcss').Config} */
+
+
 module.exports = {
   content: [
     "./app/**/*.{js,ts,jsx,tsx}",
@@ -9,8 +11,10 @@ module.exports = {
     extend: {
       fontFamily: {
         ohno: ["var(--font-ohno)"],
+        ohno: ['"Ohno Softie Variable"', 'sans-serif'],
       },
     },
   },
   plugins: [],
 };
+
